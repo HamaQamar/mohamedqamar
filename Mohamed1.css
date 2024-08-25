@@ -1,0 +1,278 @@
+html {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    list-style-type: none;
+    background-color: black;
+    text-transform: capitalize;
+    color: white;
+}
+
+h1 {
+    color: white;
+    margin-left: 10px;
+    position: absolute;
+    top: 0px;
+    font-size: xx-larger;
+    display: inline;
+}
+
+#my {
+    color: rgb(255, 0, 255);
+    font-size: xx-large;
+    position: absolute;
+    top: 20px;
+    left: 175px;
+}
+
+h3 {
+    color: white;
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h4 {
+    color: white;
+    margin-left: 10px;
+    position: absolute;
+    top: 150px;
+    font-size: large;
+    margin-top: 0px;
+}
+
+h5 {
+    font-size: 40px;
+    color: rgb(255, 0, 255);
+    margin-left: 10px;
+    margin-top: 200px;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 0, 255);
+    font-size: 25px;
+    transition: 0.5s;
+    padding-left: 20px;
+}
+
+div {
+    direction: rtl;
+    position: absolute;
+    top: 10px;
+    right: 220px;
+    direction: rtl;
+    display: inline;
+}
+
+li {
+    direction: rtl;
+    display: inline;
+}
+
+ul li a {
+    transition: 0.3s ease-in-out;
+}
+
+li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#dark {
+    width: 30px;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    top: 3px;
+    left: 492px;
+}
+
+#dark:hover {
+    width: 40px;
+    transition: 0.5s;
+}
+
+.m {
+    color: yellow;
+    font-size: 50px;
+    margin-right: 0;
+    border-right: 0ch;
+}
+
+.moa img {
+    margin-left: 10px;
+    margin top: 10px;
+    right 2rem;
+    width: 2.5rem;
+    padding: right 100px;
+    direction: ltr
+}
+
+.moa img {
+    transition: 0.8s ease;
+}
+
+.moa img:hover {
+    transform: scale(1.2);
+}
+
+.front {
+    color: rgb(255, 0, 255);
+}
+
+#log {
+    transition: 0.8s ease;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 10px;
+    margin: unset 10px 10px;
+    font-size: larger;
+    background-color: red;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#log:hover {
+    border-radius: 7px;
+    color: rgb(255, 0, 255);
+    background-color: white;
+}
+
+.in {
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    font-size: x-large;
+    transition: 0.8s;
+    background-color: red;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.in:hover {
+    color: rgb(255, 0, 255);
+    background-color: white;
+}
+
+#photo {
+    border-radius: 100px;
+    position: absolute;
+    box-shadow: rgba(131, 2, 131, 0.603) 20px 20px 20px 20px;
+    transition: 1s ease;
+    right: 10px;
+    top: 100px;
+}
+
+#photo:hover {
+    transition: 1s ease-in-out;
+    box-shadow: rgb(255, 0, 255) 20px 20px 20px 20px;
+}
+
+#user1 {
+    background-color: rgba(93, 212, 93, 0.562);
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+
+#user1:invalid {
+    background-color: rgb(150, 6, 6);
+    position: absolute;
+    left: 30px;
+}
+
+#user1::placeholder {
+    color: white;
+}
+
+.button1 {
+    position: absolute;
+    left: 30px;
+}
+
+.button2 {
+    position: absolute;
+    left: 90px;
+    transition: 1s;
+}
+
+@media (max-width:700px) {
+    #photo {
+        width: 200px;
+        position: absolute;
+        border-radius: 10px;
+        top: 300px;
+    }
+    div ul li a {
+        font-size: 18px;
+    }
+    div {
+        position: absolute;
+        top: 70px;
+        right: 60px;
+    }
+    h1 {
+        margin-top: 0;
+    }
+    #my {
+        font-size: 30px;
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    #log {
+        font-size: 15px;
+    }
+    .in {
+        font-size: 15px;
+        right: 10px;
+    }
+    h4 {
+        top: 150px;
+    }
+    h5 {
+        top: 150px;
+        font-size: xx-large;
+    }
+    h3 {
+        position: absolute;
+        top: 250px;
+    }
+    .moa {
+        position: absolute;
+        bottom: 20px;
+    }
+}
+
+@media (min-width:701px) and (max-width:900px) {
+    div {
+        position: absolute;
+        top: 70px;
+        right: 200px;
+    }
+    #photo {
+        width: 300px;
+        position: absolute;
+        top: 200px;
+        border-radius: 10px;
+        bottom: 0px;
+    }
+    div ul li a {
+        font-size: 25px;
+    }
+    #in {
+        position: absolute;
+        right: 0%;
+        font-size: 20px;
+    }
+}
+
+.z {
+    position: absolute;
+    top: 100px;
+    font-size: large;
+    line-height: 30px;
+}
